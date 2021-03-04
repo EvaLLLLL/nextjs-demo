@@ -1,5 +1,4 @@
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
+import App from "next/app";
+import "antd/dist/antd.css";
 
-export default MyApp;
+export default App;
