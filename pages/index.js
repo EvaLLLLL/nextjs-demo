@@ -1,3 +1,8 @@
+import Link from 'next/link'
 import { Button } from "antd";
 
-export default () => <Button>Index</Button>;
+export default () => (
+ <Link href="/a">
+ <Button>go to A</  Button>
+ </Link>
+)
